@@ -24,8 +24,8 @@ public class NumraFjale {
     private void generateNumberArrays(){
         for(int i = 11; i <= 19; ++i)
             elevenTo19[i-11] = zeroTo10[i-11] + data[1] + data[2];
-        twentyTo90[0] = data[3]; // exeption in albanian
-        twentyTo90[1] = data[4]; // exeption in albanian
+        twentyTo90[0] = data[3]; // exception in albanian
+        twentyTo90[1] = data[4]; // exception in albanian
         for(int i = 0; i <= 5; ++i)
             twentyTo90[i+2] = zeroTo10[i+3] + data[2];
         for(int i = 0; i <= 8; ++i)
